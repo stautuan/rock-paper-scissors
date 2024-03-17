@@ -15,7 +15,7 @@ getComputerChoice();
 
 function playGame() {
   for (let i = 0; i < 5; i++) {
-    const answer = prompt("What is your choice?");
+    const answer = prompt(`Let's play "Rock, Paper, Scissors"!`);
     const playerSelection =
       answer[0].toUpperCase() + answer.slice(1).toLowerCase();
     const computerSelection = getComputerChoice();
